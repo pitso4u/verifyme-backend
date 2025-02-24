@@ -1,0 +1,4 @@
+--patch-module
+com.klmsystems.javafxdesktop=_
+--add-reads
+com.klmsystems.javafxdesktop=ALL-UNNAMED

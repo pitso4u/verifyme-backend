@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Soetsang@144156",
+    "database": "verifyme",
+    "host": "127.0.0.1",
+    "port": 5433,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Soetsang@144156",
+    "database": "verifyme_test",
+    "host": "127.0.0.1",
+    "port": 5433,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Soetsang@144156",
+    "database": "verifyme_production",
+    "host": "127.0.0.1",
+    "port": 5433,
+    "dialect": "postgres"
+  }
+}

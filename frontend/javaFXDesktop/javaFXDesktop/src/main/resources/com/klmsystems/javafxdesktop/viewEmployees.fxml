@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.klmsystems.javafxdesktop.ViewEmployeesController">
+    <top>
+        <Label text="All Employees" style="-fx-font-size: 24px;"/>
+    </top>
+    <center>
+        <TableView fx:id="employeesTableView">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID" />
+                <TableColumn fx:id="firstnameColumn" text="First Name" />
+                <TableColumn fx:id="surnameColumn" text="Surname" />
+                <TableColumn fx:id="employeeIdColumn" text="Employee ID" />
+                <TableColumn fx:id="qrCodeColumn" text="QR Code" />
+                <TableColumn fx:id="createdAtColumn" text="Created At" />
+                <TableColumn fx:id="genderColumn" text="Gender" />
+                <TableColumn fx:id="idNumberColumn" text="ID Number" />
+                <TableColumn fx:id="languageColumn" text="Language" />
+                <TableColumn fx:id="addressColumn" text="Address" />
+                <TableColumn fx:id="emailAddressColumn" text="Email Address" />
+                <TableColumn fx:id="phoneNumberColumn" text="Phone Number" />
+                <TableColumn fx:id="departmentColumn" text="Department" />
+                <TableColumn fx:id="positionColumn" text="Position" />
+                <TableColumn fx:id="hiredAtColumn" text="Hired At" />
+                <TableColumn fx:id="raceColumn" text="Race" />
+                <TableColumn fx:id="postalCodeColumn" text="Postal Code" />
+                <TableColumn fx:id="userIdColumn" text="User ID" />
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <Button text="Refresh" onAction="#refreshEmployees"/>
+        <Button text="Back to Dashboard" onAction="#backToDashboard"/>
+    </bottom>
+</BorderPane> 

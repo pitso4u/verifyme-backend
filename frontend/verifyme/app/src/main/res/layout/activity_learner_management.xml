@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User ID" />
+
+    <EditText
+        android:id="@+id/editTextCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course" />
+
+    <EditText
+        android:id="@+id/editTextEnrollmentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enrollment Date (YYYY-MM-DD)" />
+
+    <Button
+        android:id="@+id/buttonAddLearner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Learner" />
+
+    <Button
+        android:id="@+id/buttonUpdateLearner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Learner" />
+
+    <Button
+        android:id="@+id/buttonDeleteLearner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Learner" />
+
+    <ListView
+        android:id="@+id/listViewLearners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout> 

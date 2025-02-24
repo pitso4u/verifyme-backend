@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs
+*.log
+
+# Node.js (for backend)
+node_modules/
+npm-debug.log

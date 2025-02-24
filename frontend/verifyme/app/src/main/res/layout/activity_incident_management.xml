@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextIncidentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Incident ID" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+
+    <Button
+        android:id="@+id/buttonAddIncident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Incident" />
+
+    <Button
+        android:id="@+id/buttonUpdateIncident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Incident" />
+
+    <Button
+        android:id="@+id/buttonDeleteIncident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Incident" />
+
+    <ListView
+        android:id="@+id/listViewIncidents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout> 

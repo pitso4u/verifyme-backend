@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.verify_me.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <activity
+        android:id="@+id/navigation_users"
+        android:name="com.example.verify_me.UserManagementActivity"
+        android:label="Users"
+        tools:layout="@layout/activity_user_management" />
+
+    <activity
+        android:id="@+id/navigation_employees"
+        android:name="com.example.verify_me.EmployeeManagementActivity"
+        android:label="Employees"
+        tools:layout="@layout/activity_employee_management" />
+
+    <activity
+        android:id="@+id/navigation_learners"
+        android:name="com.example.verify_me.LearnerManagementActivity"
+        android:label="Learners"
+        tools:layout="@layout/activity_learner_management" />
+
+    <activity
+        android:id="@+id/navigation_visitors"
+        android:name="com.example.verify_me.VisitorManagementActivity"
+        android:label="Visitors"
+        tools:layout="@layout/activity_visitor_management" />
+
+    <activity
+        android:id="@+id/navigation_incidents"
+        android:name="com.example.verify_me.IncidentManagementActivity"
+        android:label="Incidents"
+        tools:layout="@layout/activity_incident_management" />
+
+    <activity
+        android:id="@+id/navigation_attendance"
+        android:name="com.example.verify_me.AttendanceManagementActivity"
+        android:label="Attendance"
+        tools:layout="@layout/activity_attendance_management" />
+</navigation>

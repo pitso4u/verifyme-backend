@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.klmsystems.javafxdesktop.ViewLearnersController">
+    <center>
+        <VBox spacing="20" alignment="CENTER">
+            <ListView fx:id="learnersListView" />
+            <Button text="Back to Dashboard" onAction="#backToDashboard"/>
+        </VBox>
+    </center>
+</BorderPane> 

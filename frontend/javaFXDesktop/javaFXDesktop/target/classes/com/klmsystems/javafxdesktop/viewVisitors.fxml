@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.klmsystems.javafxdesktop.ViewVisitorsController">
+    <top>
+        <Label text="All Visitors" style="-fx-font-size: 24px;"/>
+    </top>
+    <center>
+        <TableView fx:id="visitorsTableView">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Visitor's Name" />
+                <TableColumn fx:id="idColumn" text="ID/UID Number" />
+                <TableColumn fx:id="purposeColumn" text="Purpose of Visit" />
+                <TableColumn fx:id="entryTimeColumn" text="Time of Entry" />
+                <TableColumn fx:id="departmentColumn" text="Department/Division" />
+                <TableColumn fx:id="remarksColumn" text="Remarks" />
+            </columns>
+        </TableView>
+    </center>
+    <bottom>
+        <Button text="Refresh" onAction="#refreshVisitors"/>
+        <Button text="Back to Dashboard" onAction="#backToDashboard"/>
+    </bottom>
+</BorderPane> 

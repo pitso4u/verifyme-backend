@@ -1,0 +1,20 @@
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.klmsystems.javafxdesktop.IncidentController">
+    <top>
+        <Label text="Incident Management" style="-fx-font-size: 24px;"/>
+    </top>
+    <center>
+        <ListView fx:id="incidentsListView"/>
+    </center>
+    <bottom>
+        <TextField fx:id="incidentTypeField" promptText="Incident Type"/>
+        <TextField fx:id="descriptionField" promptText="Description"/>
+        <TextField fx:id="locationField" promptText="Location"/>
+        <TextField fx:id="reportedByField" promptText="Reported By"/>
+        <TextField fx:id="involvedPartiesField" promptText="Involved Parties"/>
+        <TextField fx:id="statusField" promptText="Status"/>
+        <TextField fx:id="resolutionField" promptText="Resolution"/>
+        <Button text="Create Incident" onAction="#createIncident"/>
+        <Button text="Delete Incident" onAction="#deleteIncident"/>
+        <Button text="Back to Dashboard" onAction="#backToDashboard"/>
+    </bottom>
+</BorderPane> 
